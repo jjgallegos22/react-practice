@@ -1,0 +1,41 @@
+{
+  "name": "react-practice",
+  "version": "1.0.0",
+  "description": "Node.js, React, Redux",
+  "main": "index.js",
+  "scripts": {
+    "webserver": "node src/server.js",
+    "build": "node_modules/.bin/webpack",
+    "dev": "node_modules/.bin/webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjgallegos22/react-practice.git"
+  },
+  "keywords": [
+    "react",
+    "redux"
+  ],
+  "author": "Jose Gallegos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjgallegos22/react-practice/issues"
+  },
+  "homepage": "https://github.com/jjgallegos22/react-practice#readme",
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "html-webpack-plugin": "^3.2.0",
+    "koa": "^2.8.1",
+    "koa-cors": "0.0.16",
+    "koa-route": "^3.2.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "webpack": "^4.39.3"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.8.0"
+  }
+}
